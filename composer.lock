@@ -5685,16 +5685,16 @@
         },
         {
             "name": "tinymce/tinymce",
-            "version": "5.7.1",
+            "version": "5.10.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tinymce/tinymce-dist.git",
-                "reference": "8273fb332de43e7929b7b78c13c72b32871f7394"
+                "reference": "f078d8eb7de81f20d34b2ae4326870d20e22d4ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/8273fb332de43e7929b7b78c13c72b32871f7394",
-                "reference": "8273fb332de43e7929b7b78c13c72b32871f7394",
+                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/f078d8eb7de81f20d34b2ae4326870d20e22d4ff",
+                "reference": "f078d8eb7de81f20d34b2ae4326870d20e22d4ff",
                 "shasum": ""
             },
             "type": "component",
@@ -5720,19 +5720,25 @@
                 "LGPL-2.1-only"
             ],
             "description": "Web based JavaScript HTML WYSIWYG editor control.",
-            "homepage": "http://www.tinymce.com",
+            "homepage": "https://www.tiny.cloud/",
             "keywords": [
-                "editor",
+                "contenteditable",
+                "editing",
                 "html",
                 "javascript",
+                "rich editor",
+                "rich text",
+                "rich text editor",
                 "richtext",
+                "rte",
+                "text",
                 "tinymce",
                 "wysiwyg"
             ],
             "support": {
-                "source": "https://github.com/tinymce/tinymce-dist/tree/5.7.1"
+                "source": "https://github.com/tinymce/tinymce-dist/tree/5.10.7"
             },
-            "time": "2021-03-17T01:43:23+00:00"
+            "time": "2022-12-07T03:50:54+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -8766,5 +8772,5 @@
     "platform-overrides": {
         "php": "7.3.0"
     },
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
